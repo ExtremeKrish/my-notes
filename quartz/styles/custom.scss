@@ -21,9 +21,3 @@ h3 { font-size: 1.3rem; }
   font-size: 1.1em;    // relative to surrounding text
 }
 
-// Options: TeX, STIX2, Gyre-Pagella, Gyre-Termes, Latin-Modern
-MathJax = {
-  options: {
-    mathFont: "STIX2"
-  }
-};
