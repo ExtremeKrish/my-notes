@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-
-// ─── Headings: Libre Baskerville, normal weight, distinct colors ───
-
 h1 {
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
@@ -68,8 +64,6 @@ h6 {
   }
 }
 
-// ─── Bold: same color as h2 ───
-
 article strong {
   color: #1a6faf;
   font-weight: 700;
@@ -78,8 +72,6 @@ article strong {
     color: #64b5f6;
   }
 }
-
-// ─── Italic: deep gold, works on both modes ───
 
 article em {
   color: #b7860b;
@@ -90,28 +82,22 @@ article em {
   }
 }
 
-// ─── Highlight: ==text== in markdown ───
-
 article mark {
-  background-color: #fff176;   // bright lemon yellow
-  color: #1a1a1a;              // near black text
+  background-color: #fff176;
+  color: #1a1a1a;
   padding: 0.05em 0.25em;
   border-radius: 3px;
 
   .darkmode & {
-    background-color: #00c853;  // vivid green
-    color: #000000;             // black text on green
+    background-color: #00c853;
+    color: #000000;
   }
 }
-
-// ─── Body text comfort ───
 
 article p, article li {
   font-size: 1.05rem;
   line-height: 1.8;
 }
-
-// ─── KaTeX sizes ───
 
 .katex-display {
   font-size: 1.1em;
