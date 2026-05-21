@@ -19,7 +19,7 @@ Workdone in bringing a test charge from $\infty$ to R distance in a Electric Fie
 
 **Electric Potential Energy (U) = Work done by EXTERNAL force** (Derivation not in NCERT)
 $$
-\begin{align}
+\begin{align*}
 U_{p} =W_{ext(\infty \to p)} &= \int_{\infty}^{p} f_{ext} \, dr \\
 &= \int_{\infty}^{p} \frac{kQq}{r^{2}} \, dr \\
 &= KQq \int_{\infty}^{p} \frac{1}{r^{2}} \, dr  \\
@@ -27,7 +27,7 @@ U_{p} =W_{ext(\infty \to p)} &= \int_{\infty}^{p} f_{ext} \, dr \\
 &= KqQ \left[ \frac{-1}{\infty}-\left( \frac{-1}{r} \right) \right] \\
 &= KqQ \left( \frac{1}{r}-\frac{1}{\infty} \right) \\
 &= \frac{kQq}{r}
-\end{align}
+\end{align*}
 $$
 - If Q and q same sign → U>0 
 - If opposite sign → U<0 (because q will be negative) 
@@ -175,12 +175,12 @@ $$
 - Putting that in ($V = E \times d$) , we get 
 
 $$
-\begin{align}
+\begin{align*}
 V &=\frac{\sigma}{\epsilon_{\circ}} \times d\\
 V &= \frac{Q}{A\epsilon_{\circ}}\times d \\
 \frac{\epsilon_{\circ} A}{d} &= \frac{Q}{V} \\
 \Aboxed{C &= \frac{\epsilon_{\circ} A}{d}}
-\end{align}
+\end{align*}
 $$
 ## Effect of Dielectric on Capacitance ✤
 
@@ -205,13 +205,13 @@ $$
 $$
 ### Energy Density of a Capacitor (U/Volume)
 $$
-\begin{align}
+\begin{align*}
 u &= \frac{U}{Vol}\\
 &= \frac{\frac{1}{2}CV^2}{Ad} \\
 &= \frac{1}{2\cancel{A}d} \times \frac{\epsilon_{\circ}\cancel{A}}{d} \times (E \times d)^2\\
 &= \frac{1}{2} \frac{\epsilon_{\circ}}{\cancel{d^2}} \frac{E^2\,\cancel{d^2}}{A} \\
 u &= \frac{1}{2}\epsilon_{\circ}\,E^2
-\end{align}
+\end{align*}
 $$
 
 
