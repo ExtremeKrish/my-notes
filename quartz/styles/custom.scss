@@ -1,3 +1,29 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+// Body font size
+article p, article li {
+  font-size: 1.05rem;    // increase this, default is 1rem
+  line-height: 1.75;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family:Libre Baskerville;
+}
+
+// Heading sizes
+h1 { font-size: 2rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.3rem; }
+
+// LaTeX font size
+.katex {
+  font-size: 1.1em;    // relative to surrounding text
+}
+
+// Options: TeX, STIX2, Gyre-Pagella, Gyre-Termes, Latin-Modern
+MathJax = {
+  options: {
+    mathFont: "STIX2"
+  }
+};
