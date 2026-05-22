@@ -64,14 +64,14 @@ article p, article li {
 }
 
 /* ── Dark mode ── */
-.darkmode h1 { color: #ff6b6b; }
-.darkmode h2 { color: #64b5f6; }
-.darkmode h3 { color: #69f0ae; }
+.darkmode h1 { color: #A04F4F; }
+.darkmode h2 { color: #C76F43; }
+.darkmode h3 { color: #A28636; }
 .darkmode h4 { color: #ffb74d; }
 .darkmode h5 { color: #ce93d8; }
 .darkmode h6 { color: #80deea; }
-.darkmode article strong { color: #64b5f6; }
-.darkmode article em { color: #ffd54f; }
+.darkmode article strong { color: #FACC15; }
+.darkmode article em { color: #F472B6; }
 .darkmode article mark {
   background-color: #00c853;
   color: #000000;
@@ -80,5 +80,11 @@ article p, article li {
 /* ── Sidebar width ── */
 .left.sidebar {
   width: 200px;
-  flex: 0 0 220px;
+  flex: 0 0 200px;
+}
+
+/* ── Main content expand to fill sidebar gap ── */
+.center {
+  flex: 1 1 auto;
+  min-width: 0;
 }
