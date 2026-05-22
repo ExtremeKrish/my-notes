@@ -120,13 +120,13 @@ This was like Grass is green, just remember formula
 ### Coulomb's Formula in Vector Form
 $\vec{F}_{1,2} = -\vec{F}_{2,1}$
 $$
-\begin{align}
+\begin{align*}
 \vec{F}_{2,1} &= \frac{kq_{1}q_{2}}{r^{2}} \hat{r} \\ \\
 \text{We Know that } \vec{A} = |A|\,\hat{A}  \\
 
 &= \frac{k\,q_{1}\,q_{2}}{r^2} \left( \frac{\vec{r}}{|r|} \right) \\
 &= \frac{kq_{1}q_{2}}{r^{3}} \vec{r}
-\end{align}
+\end{align*}
 $$
 ## Electric Field
 
@@ -255,13 +255,13 @@ Q) If the magnitude of intensity of electric field at a distance x on axial line
 
 ### Torque on Electric Dipole
 $$
-\begin{align}
+\begin{align*}
 \vec{\tau} &= \vec{r} \times \vec{F} \\
 |\vec{\tau}| &= rF sin \theta \\
 |\vec{\tau_{net}}| &= d\,qE\,sin \theta\times 2 \text{  ✓} \\
 \vec{\tau_{net}} &= pE sin\theta \\
 \vec{\tau_{net}} &= \vec{p} \times \vec{E} \\
-\end{align}
+\end{align*}
 $$
 ✓ - (because the dipole is moving from head and tail too so double torque)
 
@@ -297,13 +297,13 @@ $$
 Suppose u got a sphere, with Radius 'R' but u also take a *Spherical Gaussian Surface* from the center of sphere to some outside length more than R, that new gaussian radius is 'r' (r>R)
 
 $$
-\begin{align}
+\begin{align*}
 E \cdot A &= \frac{q_{enc}}{\epsilon_{0}} \\
 E \times 4\pi r^2 &= \frac{\sigma \times 4\pi R^2}{\epsilon_{0}} \\
 E &= \frac{\sigma}{\epsilon_{0}} \frac{R^2}{r^2} \\
 E &= \frac{q}{4\pi R^2} \frac{1}{\epsilon_{0}} \frac{R^2}{r^2} \\
 E &= \frac{kq}{r^2}
-\end{align}
+\end{align*}
 
 $$
 **2. Field inside the shell**

@@ -98,18 +98,18 @@ Now if current tries to change or we change…Then Flux changes &Coil generates 
 
 **Coefficient of Self Induction (L)**
 $$
-\begin{align}
+\begin{align*}
 \phi &\propto I \\
 \phi &= LI \\
 L &= \frac{\phi}{I}
-\end{align}
+\end{align*}
 $$
 L - Coefficient of Self Induction
 $\phi$ - Magnetic Flux
 #### Induced emf in an Inductor 
 EMF = L × rate of change of current
 $$
-\begin{align}
+\begin{align*}
 \mathcal{E}_{ind} &= \frac{\Delta \phi}{\Delta t} \\
 &= \frac{\Delta(Li)}{\Delta t} \\ \\
 
@@ -118,19 +118,19 @@ i_{ind} &= \frac{L}{R} \frac{\Delta i}{\Delta t} \\
 q_{ind} &= \frac{L}{R} \Delta i
 
 
-\end{align}
+\end{align*}
 $$
 NCERT  6.8
 
 #### Self Inductance of Solenoid
 N - numbers of turns in solenoid
 $$
-\begin{align}
+\begin{align*}
 N\phi &= L\,i \\
 N\,BA &= L\,i \\
 N\,\mu_{0} ni\,A&= L\,i \\
 \Aboxed{L = \mu_{0}nNA}
-\end{align}
+\end{align*}
 $$
 Also 
 $$
@@ -139,7 +139,7 @@ $$
 ### Enegy Stored in an Inductor
 We know that, $P = \mathcal{E} i$ 
 $$
-\begin{align}
+\begin{align*}
 P &= \mathcal{E} i \\
 \frac{dw}{dt} &= \mathcal{E}i \\
 \frac{dw}{dt} &= L \frac{di}{dt} i \\
@@ -148,17 +148,17 @@ dw&= L i\, di \\
 \int_{0}^{W} dW &= L\int_{0}^{i} i \, di   \\
 \Delta U &= L\left[ \frac{i^2}{2} \right]^{i}_{0}  \\
 \Aboxed{U &= \frac{1}{2}L\,i^2}
-\end{align}
+\end{align*}
 $$
 ### Energy Density in an Inductor (u)
 $$
-\begin{align}
+\begin{align*}
 u &= \frac{U}{V} = \frac{U}{Al}  \\
 &= \frac{\frac{1}{2} Li^2}{Al} \\
 &= \frac{1}{2}\frac{ (\mu_{0}n^2Al)i^2}{Al} \\
 &= \frac{1}{2} \mu_{0}n^2 i^2 = \frac{1}{2} \frac{(\mu_{0}ni)^2}{\mu_{0}} \\
 u_{b} &= \frac{B^2}{2 \mu_{0}}
-\end{align}
+\end{align*}
 $$
 Here we wrote $\mu_{0}nI$ as B because that's what we learnt in [[Chapter - 4#Application Solenoid|4th Chapter, Ampere's Circuital Law for Solenoid]]
 ### Inductors in Combination
@@ -166,11 +166,11 @@ Here we wrote $\mu_{0}nI$ as B because that's what we learnt in [[Chapter - 4#Ap
 ![[Pasted image 20260416194911.jpg|471x236]]
 
 $$
-\begin{align} \\
+\begin{align*} \\
 \mathcal{E}_{net} &= \mathcal{E}_{1} + \mathcal{E}_{2} + \dots \\
 
 \Aboxed{L_{net} &= L_{1} + L_{2}+\dots}
-\end{align}
+\end{align*}
 $$
 #### Parallel
 ![[Pasted image 20260416194926.jpg|544x273]]
@@ -185,12 +185,12 @@ The property of coil by which it opposes the change in flux due to change in the
 
 **Coefficient of Mutual Induction (M)**
 $$
-\begin{align}
+\begin{align*}
 \phi_{2} &\propto i_{1} \\
 \phi_{2} &= M_{2,1} \;i_{1} \text{ for single turn} \\
 N_{2}\phi_{2} &= M_{2,1} \;i_{1} \text{ for solenoid} \\
 M_{2,1} &= \frac{N_{2}\phi_{2}}{i_{1}}
-\end{align}
+\end{align*}
 $$
 Also
 $$
@@ -198,12 +198,12 @@ $$
 $$
 #### Induced EMF by Mutual Induction
 $$
-\begin{align}
+\begin{align*}
 
 \mathcal{E} &= \frac{d\phi}{dt} \\
 &= \frac{\frac{M_{2}}{N_2}di_{1}}{dt} \\
 &= N \times M_{2,1}\; \frac{di_{1}}{dt}
-\end{align}
+\end{align*}
 $$
 #### Mutual Induction of Two Co-axial Solenoids
 $$
@@ -215,21 +215,21 @@ $n_{2}$ → Number of Turns per unit length
 ## AC Generator
 So it generates AC Generator
 $$
-\begin{align}
+\begin{align*}
 \mathcal{E} &= \frac{d\phi}{dt} \\
 &= \frac{d(BA\cos \theta)}{dt} \because \phi = B \cdot A \\
 &= \frac{-d (BA\cos(\omega t))}{} \because \omega = \frac{\theta}{t} \\
 &= -BA \frac{d(\cos \omega t)}{dt} \\
 &= BA(\sin \omega t) \omega  \\
 &= BA \omega \; (\sin \omega t) 
-\end{align}
+\end{align*}
 $$
 This was for single turn, for N turns
 $$
-\begin{align}
+\begin{align*}
 \mathcal{E} &= NBA \omega \; (\sin \omega t)  \\
 \mathcal{E} &= \mathcal{E}_{0}\; \sin \omega t 
-\end{align}
+\end{align*}
 $$
 Where $\mathcal{E}_0 = NBA \omega$ = Max EMF
 

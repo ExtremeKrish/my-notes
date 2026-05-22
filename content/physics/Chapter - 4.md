@@ -58,26 +58,26 @@ $$
 *But in NCERT we first study the* [[#Magnetic Field on the *Axis* of Circular Current Loop]] 
 
 $$
-\begin{align}
+\begin{align*}
 \int dB &= \int\frac{\mu_{0}}{4\pi} \frac{Id\ell \sin \theta}{r^2} \\
 B &= \frac{\mu_{0}I}{4\pi r^2} \int d\ell \sin 90 \\
 &= \frac{\mu_{0}I}{4\pi r^2} \times 2\pi r \\ \\
 \Aboxed{B &= \frac{\mu_{0}I}{2r}}
-\end{align}
+\end{align*}
 $$
 **Just multiply ts with n, for n number of turns.**
 
 ### Magnetic Field on the *Axis* of Circular Current Loop
 ![[Pasted image 20260411200930.png|820x429]]
 $$
-\begin{align}
+\begin{align*}
 dB_{x} &= \int dB \sin \phi \\
 &= \int\frac{\mu_{0}}{4\pi} \frac{Id\ell \sin \theta}{r^2} \sin \phi \\
 &= \frac{\mu_{0}}{4\pi}\int\frac{Id\ell\sin 90}{(\sqrt{ R^2 + x^2})^2} \sin \phi \\
 & =\frac{\mu_{0}}{4\pi} \frac{I}{(\sqrt{ R^2 + x^2})^2} \times \frac{R}{\sqrt{ R^2 + x^2}} \int d\ell \\
 &= \frac{\mu_{0}}{4\pi} \frac{IR}{(R^2 + x^2)^{3/2}} \times 2\pi R \\
 \Aboxed{B_{x} &= \frac{\mu_{0}}{2} \frac{IR^2}{( R^2 + x^2)^{3/2}}} \text{ 👈 🫩}
-\end{align}
+\end{align*}
 $$
 This is not NCERT Derivation ☝️
 
@@ -103,13 +103,13 @@ $$
 The $\oint B \cdot dl$ means : At every tiny step along your closed loop, check how much magnetic field is running along that step — then add all of it up. 
 ### Application: Straight Wire
 $$
-\begin{align}
+\begin{align*}
 \oint B \cdot dl &= \mu_{0}I \\
 \oint B\,dl &= \mu_{0}I \text{ cuz parallel B \& dl}\\
 B \oint dl  &= \mu_{0} I \\ 
 B \times 2 \pi r &= \mu_{0} I \\
 B &= \frac{\mu_{0}I}{2\pi r}
-\end{align}
+\end{align*}
 $$
 
 ### Application: Solenoid
@@ -155,12 +155,12 @@ F_{e} = -e(\vec{V}_{d} \times \vec{B})
 $$
 Force by all charges,
 $$
-\begin{align}
+\begin{align*}
 F_{total} &= F_{e} \times nAl \\
 &= -e V_{d} B \; (nAl) \\
 &= I (l \times B) \\
 &= B I \;l \sin \theta
-\end{align}
+\end{align*}
 $$
 Why this happened? Cuz we knew from [[CUET/Physics/Chapter - 3#Relation b/w Current and Drift Velocity|Chapter - 3 : Relation b/w Current and Drift Velocity]] that $I = neAV_{d}$
 
@@ -175,19 +175,19 @@ If a charge is moving in the direction of magnetic Field, then $\theta = 0$ and 
 It'll move Perpendicular like $\vec{V}\perp \vec{F}$ so it'll move in circular motion,
 So $F_{B} = F_{C} \implies qVB\sin 90 = \frac{mv^2}{r}$
 $$
-\begin{align}
+\begin{align*}
 F_{B} &= F_{c}  \\
 qV\,B\sin{90} &= \frac{mv^2}{r} \\
 \Aboxed{r &= \frac{mv}{qB}}
-\end{align}
+\end{align*}
 $$
 **Time Period -**
 $$
-\begin{align}
+\begin{align*}
 T &= \frac{2\pi r}{v} \\
 &= \frac{2\pi}{\cancel{v}} \frac{m\cancel{v}}{qB} \\
 \Aboxed{T &= \frac{2\pi m}{qB}}
-\end{align}
+\end{align*}
 $$
 **Frequency**
 $$
@@ -202,12 +202,12 @@ F = I L B \sin \theta
 $$
 And here the angle is 90 deg so *(see below)* and also value of $B_{a}$ is smth we know from [[#Infinite Wire|Magnetic Field on Infinitely long Current Carrying Wire]] i.e. $\mu_{0}I / 2\pi r$
 $$
-\begin{align}
+\begin{align*}
 F_{ba} &= I_{b} L B_{a} \sin 90° \\
 \frac{F_{ba}}{L_{b}} &= I_{b} \left( \frac{\mu_{0}}{2\pi} \frac{I_{a}}{d} \right) \\
 \frac{F_{ba}}{L_{b}} &= \frac{\mu_{0}}{2\pi} \frac{I_{a} I_{b}}{d} \\ \\
 \Aboxed{F_{ba} &= \frac{\mu_{0}}{2\pi} \frac{I_{a} I_{b}}{d} L_{b}}
-\end{align}
+\end{align*}
 $$
 Also if $f_{ba}$ is $F_{ba}$ per unit length then
 $$
@@ -219,12 +219,12 @@ Then I = 1 Ampere
 ### Torque on Rectangle Current Loop in Uniform Magnetic Field
 ![[Pasted image 20260502144134.jpg|439x334]]
 $$
-\begin{align}
+\begin{align*}
 \tau &= F \times r \\
 &= I aB\sin 90 \times b \\
 &= I(ab) B\sin 90 \\
 &= I AB\sin 90
-\end{align}
+\end{align*}
 $$
 IA or NIA (for-N-turns)is also called **Magnetic Moment of Coil** $\vec{m}$
 
@@ -245,13 +245,13 @@ B_{x} = \frac{\mu_{0}}{2} \frac{IR^2}{( R^2 + x^2)^{3/2}}
 $$
 But if x>>>R then, we get
 $$
-\begin{align}
+\begin{align*}
 B_{x} &= \frac{\mu_{0}}{2} \frac{IR^2}{x^3} \\
 B &= \frac{\mu_{0}}{2} \frac{IR^2}{x^3} \times \frac{\pi}{\pi} \\
 B &= \frac{\mu_{0}}{2} \frac{IA}{\pi \;x^3}  \\
 \text{Since } m &= IA \\
 B &= \frac{\mu_{0}}{4\pi} \frac{2m}{x^3}
-\end{align}
+\end{align*}
 $$
 Now compare it with [[CUET/Physics/Chapter - 1#Electric Dipole|Electric dipole field (on axis)]] from Chapter 1 which was
 $$

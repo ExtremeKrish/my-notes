@@ -55,11 +55,11 @@ The electrostatic force of attraction $F_{e}$ between the revolving electrons an
 **Relation between orbit radius and electron velocity** *(in hydrogen atom)*
 
 $$
-\begin{align}
+\begin{align*}
 F_{e} &= F_{c} \\
 \frac{1}{4\pi \epsilon_{0}} \frac{e^2}{r^{\cancel{2}}} &= \frac{mv^2}{\cancel{r}} \\
 \Aboxed{r &= \frac{e^2}{4\pi \epsilon_{0} \; mv^2}}
-\end{align}
+\end{align*}
 $$
 **Velocity** (of electron in hydrogen atom)
 $$
@@ -74,11 +74,11 @@ $$
 U = -\frac{e^2}{4\pi \epsilon_{0}\;r}
 $$
 $$
-\begin{align}
+\begin{align*}
 E &= K + U \\
 &=\frac{e^2}{8\pi \epsilon_{0}\;r} -\frac{e^2}{4\pi \epsilon_{0}\;r}  \\
 \Aboxed{E &= -\frac{e^2}{8\pi \epsilon_{0}\;r}}
-\end{align}
+\end{align*}
 $$
 
 Note that all we did above was valid for hydrogen atom only.
@@ -157,12 +157,12 @@ $$
 ## Line Spectrum of Hydrogen Atom
 According to the third postulate of Bohr's model, when an atom makes a transition from the higher energy state with quantum number $n_{i}$ to the lower energy state with quantum number $n_{f}$, ($n_{f} < n_{i}$), the difference of energy is carried away by a photon of frequency v such that
 $$
-\begin{align}
+\begin{align*}
 h\nu &= E_{n_{i}}-E_{n_{f}} \\
 h\nu &= \left( -\frac{me^4}{8\epsilon_{0}^2 h^2 n_{i}^2}\right) - \left( -\frac{me^4}{8\epsilon_{0}^2 h^2 n_{f}^2}\right) \\
 \nu_{if}  &= -\frac{me^4}{8\epsilon_{0}^2 h^3} \left( \frac{1}{n_{f}^2} - \frac{1}{n_{i}^2}\right) \\
 
-\end{align}
+\end{align*}
 $$
 
 
