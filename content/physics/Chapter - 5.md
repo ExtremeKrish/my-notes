@@ -67,14 +67,14 @@ $$
 Aight so Imagine a Coil or a Solenoid, 
 Let the number of turns are N, so magnetic field
 $$
-\begin{align*}
+\begin{align}
 B &= \frac{\mu_{0}}{2} \frac{NIR^2}{(R^2 + x^2)^{3/2}} \\
 &= \frac{\mu_{0} NIR^2}{2x^3} \; \because [x\gg R] \\
 &= \frac{\mu_{0} NIR^2}{2x^3} \times \frac{2\pi}{2\pi} \\
 &= \frac{\mu_{0} 2NI\; \pi R^2}{4 \pi x^3} \\
 &= \frac{\mu_{0} 2NIA}{4 \pi x^3} \\
 &= \frac{\mu_{0}}{4\pi} \frac{2m}{x^3}
-\end{align*}
+\end{align}
 $$
 ### Bar Magnet in External Field
 ```Q

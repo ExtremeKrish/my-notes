@@ -20,31 +20,31 @@ Lets start with our [[CUET/Physics/Chapter - 4#Ampere's Circuital Law (hugely im
 **1st Derivation**
 We know that 
 $$
-\begin{align*}
+\begin{align}
 \phi_{E} &= E \cdot A \\
 \phi_{E} &= \frac{Q}{\epsilon_{0}A} \cdot A \\
 \phi_{E} &= \frac{Q}{\epsilon_{0}}
-\end{align*}
+\end{align}
 $$
 Now Diffrentiating both sides, we get
 $$
-\begin{align*}
+\begin{align}
 \frac{d\phi_{E}}{dt} &= \frac{d}{dt} \left( \frac{Q}{\epsilon_{0}} \right) \\
 \frac{d\phi_{E}}{dt} &= \frac{1}{\epsilon_{0}} \frac{dQ}{dt} \\
 \epsilon_{0} \times \frac{d\phi_{E}}{dt} &= I  \\
 \Aboxed{I_{d} &= \epsilon_{0}\frac{d\phi_{E}}{dt}}
-\end{align*}
+\end{align}
 $$
 **2nd Way of Derivation**
 $$
-\begin{align*}
+\begin{align}
 \oint E \cdot ds &= \phi = \frac{q_{enc}}{\epsilon_{0}} \\
 \therefore q_{enc} &= \phi \epsilon_{0} \\
 \text{We know that:} \\
 I &= \frac{dq}{dt} \\
 I &= \frac{d(\phi \epsilon_{0})}{dt} \\
 \Aboxed{I_{d} &= \epsilon_{0} \frac{d\phi_{E}}{dt}}
-\end{align*}
+\end{align}
 $$
 
 ```Q
@@ -91,7 +91,7 @@ v = \frac{1}{\sqrt{ \mu \epsilon }}
 $$
 **E = BC Formula Derivation**
 $$
-\begin{align*}
+\begin{align}
 \frac{1}{2} \epsilon_{0}
 E^2 &= \frac{1}{2} \frac{B^2}{\mu_{0}} \\
 \epsilon_{0}E^2 &= \frac{B^2}{\mu_{0}} \\
@@ -100,7 +100,7 @@ E^2 &= \frac{1}{2} \frac{B^2}{\mu_{0}} \\
 \sqrt{ \frac{E^2}{B^2}} &= \frac{1}{\sqrt{ \mu_{0}\epsilon_{0} }}  \\
 \frac{E}{B} &= c \\
 E &= Bc
- \end{align*}
+ \end{align}
 $$
 **EM Wave Intensity**
 $$

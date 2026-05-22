@@ -67,12 +67,12 @@ $$
 - We know that $E = V/\ell$ from Chapter 2 : [[CUET/Physics/Chapter - 2#Relation between field and potential| Relation between field and potential]]
 - And J = I/A, so:
 $$
-\begin{align*}
+\begin{align}
 V &= j \rho \ell \\
 E &= j \rho \\
 \text{And 1/p = } \sigma &\text{ i.e. conductivity} \\
 \Aboxed{j &= E \,\sigma} \tag{ncert 3.13}
-\end{align*}
+\end{align}
 $$
 
 ## Drift Velocity
@@ -93,30 +93,30 @@ Let $v_{1}+v_{2}+v_{3}+\dots + v_{n}$ are final velocties of electrons
 So $v_{1}=u_{1}+at_{1}$ , $v_{2}=u_{2}+at_{2}$ , $v_{n}=u_{n}+at_{n}$
 **The Drift Velocity is the average of all these velocities**, so lets find avg:
 $$
-\begin{align*}
+\begin{align}
 V_{d} &= u_{avg} + a\,t_{avg} \\
 &= 0 + a\,\tau \\
 &= \frac{eE}{m}\tau
-\end{align*}
+\end{align}
 $$
 Where $\tau$ is the **Average Relaxation Time**
 ### Relation b/w Current and Drift Velocity 
 We know that *Distance= Speed × Time*, so distance travelled by electrons in a conductor is $\ell = V_{d}\Delta t$ and the Free-Electron-Volume Density is **n** (means n is the number of free electrons per unit volume in that metal).
 So the **Total Number of Electrons** :
 $$
-\begin{align*}
+\begin{align}
 N &= n \times Vol. \\
 & = n \times (A\ell) \\
 N &= \boxed{n A (V_{d} \Delta t)} \\
-\end{align*}
+\end{align}
 $$
 Since $Q = Ne$,
 $$
-\begin{align*}
+\begin{align}
 Q &= N \times e \\
 &= (n A V_d \Delta t) \times e \\
 Q &= \boxed{neA V_{d} \Delta t} \\
-\end{align*}
+\end{align}
 $$
 And Current $I = Q/t$, so here, I =
 $$
@@ -125,11 +125,11 @@ $$
 ### Current Density & Drift Velocity
 We know that$\vec{J} = I/A$
 $$
-\begin{align*}
+\begin{align}
 \Aboxed{j &= neV_{d}} \\
 &= ne \times \left( \frac{eE}{m}\tau \right) \\
 j &= \frac{ne^{2}E}{m}\tau
-\end{align*}
+\end{align}
 $$
 Comparing it with [[#Equivalent form of Ohm's Law]] we get:
 $$
@@ -209,12 +209,12 @@ And $r_{eq} = r_{1}+r_{2}+\dots$
 ### In Parallel
 The V across ends will be same and Current will Divide
 $$
-\begin{align*}
+\begin{align}
 I &= I_{1}+I_{2} \\
 &= \frac{\mathcal{E}_{1}-V}{r_{1}} + \frac{\mathcal{E}_{2}-V}{r_{2}}  \\
 I &= \left( \frac{\mathcal{E}_{1}}{r_{1}} +\frac{\mathcal{E}_{2}}{r_{2}} \right) - V \left( \frac{1}{r_{1}} + \frac{1}{r_{2}} \right) \\
 I &= \frac{\mathcal{E}_{eq}}{r_{eq}} - \frac{V}{r_{eq}}
-\end{align*}
+\end{align}
 $$
 Which now became the one Equivalent Cell Equation, thus
 $$
