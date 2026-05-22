@@ -3,106 +3,73 @@ h1 {
   font-weight: 400;
   font-size: 2rem;
   color: #c0392b;
-
-  .darkmode & {
-    color: #ff6b6b;
-  }
 }
-
 h2 {
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   font-size: 1.65rem;
   color: #1a6faf;
-
-  .darkmode & {
-    color: #64b5f6;
-  }
 }
-
 h3 {
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   font-size: 1.35rem;
   color: #27ae60;
-
-  .darkmode & {
-    color: #69f0ae;
-  }
 }
-
 h4 {
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   font-size: 1.15rem;
   color: #d35400;
-
-  .darkmode & {
-    color: #ffb74d;
-  }
 }
-
 h5 {
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   font-size: 1rem;
   color: #7b1fa2;
-
-  .darkmode & {
-    color: #ce93d8;
-  }
 }
-
 h6 {
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   font-size: 0.9rem;
   color: #00838f;
-
-  .darkmode & {
-    color: #80deea;
-  }
 }
-
 article strong {
   color: #1a6faf;
   font-weight: 700;
-
-  .darkmode & {
-    color: #64b5f6;
-  }
 }
-
 article em {
   color: #b7860b;
   font-style: italic;
-
-  .darkmode & {
-    color: #ffd54f;
-  }
 }
-
 article mark {
   background-color: #fff176;
   color: #1a1a1a;
   padding: 0.05em 0.25em;
   border-radius: 3px;
-
-  .darkmode & {
-    background-color: #00c853;
-    color: #000000;
-  }
 }
-
 article p, article li {
   font-size: 1.05rem;
   line-height: 1.8;
 }
-
 .katex-display {
   font-size: 1.1em;
+  overflow-x: auto;
 }
-
 .katex {
   font-size: 1.05em;
+}
+
+/* ── Dark mode ── */
+.darkmode h1 { color: #ff6b6b; }
+.darkmode h2 { color: #64b5f6; }
+.darkmode h3 { color: #69f0ae; }
+.darkmode h4 { color: #ffb74d; }
+.darkmode h5 { color: #ce93d8; }
+.darkmode h6 { color: #80deea; }
+.darkmode article strong { color: #64b5f6; }
+.darkmode article em { color: #ffd54f; }
+.darkmode article mark {
+  background-color: #00c853;
+  color: #000000;
 }
