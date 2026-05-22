@@ -76,3 +76,9 @@ article p, article li {
   background-color: #00c853;
   color: #000000;
 }
+
+/* ── Sidebar width ── */
+.left.sidebar {
+  width: 200px;
+  flex: 0 0 220px;
+}
