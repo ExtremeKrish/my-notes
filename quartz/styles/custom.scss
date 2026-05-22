@@ -1,6 +1,6 @@
 @use "./base.scss";
 
-
+/* ── Headings ── */
 h1 {
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
@@ -37,6 +37,14 @@ h6 {
   font-size: 0.9rem;
   color: #00838f;
 }
+
+/* ── Body text ── */
+article p, article li {
+  font-size: 1.1rem;
+  line-height: 1.85;
+}
+
+/* ── Bold & Italic ── */
 article strong {
   color: #1a6faf;
   font-weight: 700;
@@ -45,16 +53,16 @@ article em {
   color: #b7860b;
   font-style: italic;
 }
+
+/* ── Highlight ── */
 article mark {
   background-color: #fff176;
   color: #1a1a1a;
   padding: 0.05em 0.25em;
   border-radius: 3px;
 }
-article p, article li {
-  font-size: 1.05rem;
-  line-height: 1.8;
-}
+
+/* ── KaTeX ── */
 .katex-display {
   font-size: 1.1em;
   overflow-x: auto;
@@ -63,28 +71,72 @@ article p, article li {
   font-size: 1.05em;
 }
 
-/* ── Dark mode ── */
-.darkmode h1 { color: #A04F4F; }
-.darkmode h2 { color: #C76F43; }
-.darkmode h3 { color: #A28636; }
-.darkmode h4 { color: #ffb74d; }
-.darkmode h5 { color: #ce93d8; }
-.darkmode h6 { color: #80deea; }
-.darkmode article strong { color: #FACC15; }
-.darkmode article em { color: #F472B6; }
+/* ── Navbar title single line ── */
+.page-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1rem !important;
+}
+
+/* ── Sidebar narrower ── */
+@media all {
+  .left.sidebar {
+    width: 160px !important;
+    min-width: 160px !important;
+    max-width: 160px !important;
+    flex: 0 0 160px !important;
+  }
+  .center {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+  }
+}
+
+/* ══════════════════════════════
+   DARK MODE
+   (must use :root[saved-theme="dark"]
+   because .darkmode is added by JS
+   after paint — causes flicker/miss)
+   ══════════════════════════════ */
+
+:root[saved-theme="dark"] body,
+.darkmode body {
+  background-color: #1a1a2e !important;
+  color: #e0e0e0 !important;
+}
+
+:root[saved-theme="dark"] h1,
+.darkmode h1 { color: #ff6b6b !important; }
+
+:root[saved-theme="dark"] h2,
+.darkmode h2 { color: #64b5f6 !important; }
+
+:root[saved-theme="dark"] h3,
+.darkmode h3 { color: #69f0ae !important; }
+
+:root[saved-theme="dark"] h4,
+.darkmode h4 { color: #ffb74d !important; }
+
+:root[saved-theme="dark"] h5,
+.darkmode h5 { color: #ce93d8 !important; }
+
+:root[saved-theme="dark"] h6,
+.darkmode h6 { color: #80deea !important; }
+
+:root[saved-theme="dark"] article strong,
+.darkmode article strong { color: #FACC15 !important; }
+
+:root[saved-theme="dark"] article em,
+.darkmode article em { color: #F472B6 !important; }
+
+:root[saved-theme="dark"] article mark,
 .darkmode article mark {
-  background-color: #00c853;
-  color: #000000;
+  background-color: #00c853 !important;
+  color: #000000 !important;
 }
 
-/* ── Sidebar width ── */
-.left.sidebar {
-  width: 200px;
-  flex: 0 0 200px;
-}
-
-/* ── Main content expand to fill sidebar gap ── */
-.center {
-  flex: 1 1 auto;
-  min-width: 0;
+/* ── Light mode background ── */
+body {
+  background-color: #fffdf7;
 }
