@@ -2,7 +2,7 @@
 tags:
   - chemistry
 created: 2026-04-23 15:57
-title: Chapter-4: D & F Block Elements
+title: Chapter-4 D & F Block Elements
 ---
 
 **The Periodic Table from NCERT**
