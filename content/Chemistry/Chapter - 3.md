@@ -2,7 +2,7 @@
 tags:
   - chemistry
 created: 2026-03-23T15:43:00
-title: Chemical Kinetics
+title: Chapter-3: Chemical Kinetics
 ---
 
 **Chemical Kinetics: -** branch of Chemistry that deals with Study of Reaction Rates and their mechanism

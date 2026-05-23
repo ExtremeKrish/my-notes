@@ -2,8 +2,6 @@
 title: My Notes
 ---
 
-# My Notes
-
 Welcome to My-Notes.
 
 I made these notes while preparing for my own senior secondary exams, so I thought instead of keeping them locked in my folders, I should just upload them here for everyone.

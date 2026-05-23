@@ -1,16 +1,11 @@
 ---
 tags:
-  - cuet
   - chemistry
 created: 2026-03-17T22:20:00
-title: Solutions
+title: Chapter-1: Solutions
 ---
 [**NCERT**](https://ncert.nic.in/textbook/pdf/lech101.pdf) |   [[Chem_Chapter_1_CUET.pdf]]
-**Topics not Understood:-**
-- Van Hoff Factor
-- Dalton's Law lil
-```table-of-contents
-```
+
 ## Solutions
 Solutions have 2+ Components, one is 
 - Solute (which we take less e.g. Suger) & another is **Can be Multiple**
@@ -52,7 +47,9 @@ PARTICLES → MOLES      |      1 Mole = $6.022 \times 10^{23}$ whatever (**Avog
 - H - 1g
 ### In Terms of No. Of Particles 
 *Common sense*
+
 $$n = \frac{Given No. Of Particles}{6.022 \times 10^{23}}$$
+
 ### In Terms of Mass
 *Nikalna Mole hi hai, bas mass hai hamare pas*
 
@@ -60,6 +57,7 @@ $n = \large\frac{Given Mass (g)}{Molar Mass (g/mol)}$
 
 ### In Terms of Volume (Sirf Gases ke  liye)
 *STP Conditions* - Temp 273K, Atmp. = 1
+
 **Volume of 1 Mole of whatever gas at STP is 22.4L**
 
 $n = \large\frac{Given Vol (L)}{22.4 L} = \frac{W}{M}$
@@ -73,7 +71,9 @@ $n = \large\frac{Given Vol (L)}{22.4 L} = \frac{W}{M}$
 4. Mass by Vol Percent
 	Mass of Solute (g) present in 100mL of Solvent
 	$= \frac{Mass_{Solute} (g)}{Volume_{Solution} (mL)} \times 100$
+	
 	E.g. : `10% (W/V) aq. NaOH Soln`
+	
 	Becomes: 10g NaOH present in 100mL Solution
 5. PPM
 	- mass of solute (g) present in $10^6$ g solution
@@ -302,6 +302,7 @@ $$
 **Hypertonic Solution:** A solution with a higher solute concentration than the cell's cytosol, drawing water out.
 **Hypotonic Solution:** A solution with a lower solute concentration than the cell's cytosol, forcing water into the cell.
 **Isotonic Solution:** A solution with an equal solute concentration compared to the cell's cytosol, resulting in no net water movement
+
 ## Van't Hoff Factor
 $$
 I = \frac{n_{obs}}{n_{calc}}

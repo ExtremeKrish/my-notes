@@ -1,6 +1,7 @@
 ---
 tags:
   - physics
+title: Chapter - 1: Electrostatics
 ---
 
 **Electric Charge:-** we can generally say that electric charge is the inequality (or imbalance) of protons and electrons within an object, so its a property of matter, of experiencing force when there is inequality b/w Protons and Electrons.
@@ -149,7 +150,9 @@ Its N/C cuz $\vec{E} = \frac{\vec{F}}{q} = \frac{N}{C}$
 6. Number of electric field lines originating or terminating at a charge is directly proportional to the magnitude of the charge.
 ### Force on a Charged Particle in an Electric Field
 =>$F = ma \qquad\text{and}\qquad F = qE$        gives us:
+
 =>$ma = qE$        , and so:
+
 =>$Acceleration (a) = \frac{qE}{m}$
 
 ### Motion of a Charged Particle in a Uniform Electric Field
@@ -158,7 +161,8 @@ Its N/C cuz $\vec{E} = \frac{\vec{F}}{q} = \frac{N}{C}$
 2. Charged particle projected along electric field.
 	$$
 	\text{Velocity: }v=u+\left(\frac{qE}{m}\right)t
-	$$ $$
+	$$
+	$$
 	\text{Displacement: } s=ut+\frac{1}{2}\left(\frac{qE}{m}\right)t^{2}
 	$$
 3. Time taken by a charged particle to travel distance ddd in an electric field (starting from rest)

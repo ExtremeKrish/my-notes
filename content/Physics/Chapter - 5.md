@@ -2,7 +2,6 @@
 tags:
   - physics
 created: 2026-04-11 16:27
-title: Magnatism & Matter
 ---
 
 ## Introduction

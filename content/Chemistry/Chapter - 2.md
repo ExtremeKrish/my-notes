@@ -2,7 +2,7 @@
 tags:
   - chemistry
 created: 2026-03-21 17:17
-title: Electrochemistry
+title: Chapter-2: Electrochemistry
 ---
 **Topics not Understood**: - 
 - Kholrauch's Law
