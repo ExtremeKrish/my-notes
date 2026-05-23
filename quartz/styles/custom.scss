@@ -40,7 +40,7 @@ h6 {
 
 /* ── Body text ── */
 article p, article li {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   line-height: 1.85;
 }
 
@@ -71,16 +71,6 @@ article mark {
   font-size: 1.05em;
 }
 
-/* ── Sidebar + layout ── */
-.left.sidebar {
-  width: 160px !important;
-  min-width: 160px !important;
-  max-width: 160px !important;
-  flex: 0 0 160px !important;
-}
-.right.sidebar {
-  flex: 1 1 auto !important;
-}
 
 /* ── Dark mode ── */
 :root[saved-theme="dark"] body,
