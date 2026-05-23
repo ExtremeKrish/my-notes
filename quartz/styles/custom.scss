@@ -104,3 +104,19 @@ article mark {
 body {
   background-color: #fffdf7;
 }
+
+/* ── Medium screens: shrink left sidebar ── */
+@media (min-width: 800px) and (max-width: 1200px) {
+  .page > #quartz-body {
+    grid-template:
+      "grid-sidebar-left grid-header"
+      "grid-sidebar-left grid-center"
+      "grid-sidebar-left grid-sidebar-right"
+      "grid-sidebar-left grid-footer"
+      / 180px auto !important;
+  }
+
+  .page > #quartz-body .sidebar {
+    padding: 4rem 1rem 2rem !important;
+  }
+}
