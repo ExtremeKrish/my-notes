@@ -71,65 +71,39 @@ article mark {
   font-size: 1.05em;
 }
 
-/* ── Navbar title single line ── */
-.page-title {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 1.1rem !important;
+/* ── Sidebar + layout ── */
+.left.sidebar {
+  width: 160px !important;
+  min-width: 160px !important;
+  max-width: 160px !important;
+  flex: 0 0 160px !important;
+}
+.right.sidebar {
+  flex: 1 1 auto !important;
 }
 
-/* ── Sidebar narrower ── */
-@media all {
-  .left.sidebar {
-    width: 160px !important;
-    min-width: 160px !important;
-    max-width: 160px !important;
-    flex: 0 0 160px !important;
-  }
-  .center {
-    flex: 1 1 auto !important;
-    min-width: 0 !important;
-  }
-}
-
-/* ══════════════════════════════
-   DARK MODE
-   (must use :root[saved-theme="dark"]
-   because .darkmode is added by JS
-   after paint — causes flicker/miss)
-   ══════════════════════════════ */
-
+/* ── Dark mode ── */
 :root[saved-theme="dark"] body,
 .darkmode body {
   background-color: #1a1a2e !important;
   color: #e0e0e0 !important;
 }
-
 :root[saved-theme="dark"] h1,
 .darkmode h1 { color: #ff6b6b !important; }
-
 :root[saved-theme="dark"] h2,
 .darkmode h2 { color: #64b5f6 !important; }
-
 :root[saved-theme="dark"] h3,
 .darkmode h3 { color: #69f0ae !important; }
-
 :root[saved-theme="dark"] h4,
 .darkmode h4 { color: #ffb74d !important; }
-
 :root[saved-theme="dark"] h5,
 .darkmode h5 { color: #ce93d8 !important; }
-
 :root[saved-theme="dark"] h6,
 .darkmode h6 { color: #80deea !important; }
-
 :root[saved-theme="dark"] article strong,
 .darkmode article strong { color: #FACC15 !important; }
-
 :root[saved-theme="dark"] article em,
 .darkmode article em { color: #F472B6 !important; }
-
 :root[saved-theme="dark"] article mark,
 .darkmode article mark {
   background-color: #00c853 !important;
