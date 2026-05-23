@@ -2,6 +2,7 @@
 tags:
   - cuet
 created: 2026-04-29 13:03
+title: Coordination Compound Structure
 ---
 ## **Coordination Compound Structure: $K_4[Fe(CN)_6]$**
 

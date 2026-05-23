@@ -4,8 +4,7 @@ tags:
   - physics
 created: 2026-04-17 02:10
 ---
-```table-of-contents
-```
+
 **Chapter 8 - Electromagnetic Waves**
 - EMW are Light waves
 - they are non mechanical waves
