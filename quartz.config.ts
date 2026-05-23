@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "extremekrish.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -25,7 +25,7 @@ const config: QuartzConfig = {
       typography: {
         header: "Libre Baskerville",
         body: "Crimson Pro",
-        code: "IBM Plex Mono",
+        code: "Google Sans Code",
       },
       colors: {
         lightMode: {
