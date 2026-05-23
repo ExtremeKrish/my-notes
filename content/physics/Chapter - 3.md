@@ -1,11 +1,9 @@
 ---
 tags:
-  - cuet
   - physics
 created: 2026-04-03 13:10
 ---
-```table-of-contents
-```
+
 ## Electric Current
 **Electric Current:** Rate of Flow of Charge per unit Time.
 **Unit:** Ampere or C/S

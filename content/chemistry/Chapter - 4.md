@@ -1,10 +1,10 @@
 ---
 tags:
-  - cuet
+  - chemistry
 created: 2026-04-23 15:57
+title: D & F Block Elements
 ---
-```table-of-contents
-```
+
 **The Periodic Table from NCERT**
 ![[The Periodic Table - NCERT.svg|997x753]]
 **D & F Block Elements**

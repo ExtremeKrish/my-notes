@@ -11,7 +11,7 @@ h2 {
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   font-size: 1.65rem;
-  color: #1a6faf;
+  color: #FF006E;
 }
 h3 {
   font-family: 'Libre Baskerville', serif;
@@ -50,7 +50,7 @@ article strong {
   font-weight: 700;
 }
 article em {
-  color: #b7860b;
+  color: #FF006E;
   font-style: italic;
 }
 
@@ -76,6 +76,7 @@ article mark {
 :root[saved-theme="dark"] body,
 .darkmode body {
   background-color: #1a1a2e !important;
+  --light:#1a1a2e;
   color: #e0e0e0 !important;
 }
 :root[saved-theme="dark"] h1,
@@ -103,6 +104,7 @@ article mark {
 /* ── Light mode background ── */
 body {
   background-color: #fffdf7;
+  --light:#fffdf7;
 }
 
 /* ── Medium screens: shrink left sidebar ── */
@@ -120,3 +122,9 @@ body {
     padding: 4rem 1rem 2rem !important;
   }
 }
+.page-title {
+    font-size: 1.25rem;
+    font-family: var(--titleFont);
+    margin: 0;
+    
+    }

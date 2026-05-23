@@ -1,8 +1,8 @@
 ---
 tags:
-  - cuet
   - chemistry
 created: 2026-03-21 17:17
+title: Electrochemistry
 ---
 **Topics not Understood**: - 
 - Kholrauch's Law

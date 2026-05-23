@@ -1,11 +1,9 @@
 ---
 tags:
-  - cuet
   - physics
 created: 2026-03-27 00:22
 ---
-```table-of-contents
-```
+
 - Workdone of all forces = $\Delta KE$
 - $W_{ext} + W_{elec} = \Delta KE$
 - $W_{ext} = \Delta U$ so $W_{elec} = -\Delta U$
