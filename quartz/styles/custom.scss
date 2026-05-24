@@ -11,7 +11,7 @@ h2 {
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   font-size: 1.65rem;
-  color: #FF006E;
+  color: #c0392b;
 }
 h3 {
   font-family: 'Libre Baskerville', serif;
@@ -40,8 +40,8 @@ h6 {
 
 /* ── Body text ── */
 article p, article li {
-  font-size: 1.4rem;
-  line-height: 1.85;
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 /* ── Bold & Italic ── */
@@ -80,9 +80,9 @@ article mark {
   color: #e0e0e0 !important;
 }
 :root[saved-theme="dark"] h1,
-.darkmode h1 { color: #ff6b6b !important; }
+.darkmode h1 { color: #E2E8F0  !important; }
 :root[saved-theme="dark"] h2,
-.darkmode h2 { color: #64b5f6 !important; }
+.darkmode h2 { color: #A78BFA !important; }
 :root[saved-theme="dark"] h3,
 .darkmode h3 { color: #69f0ae !important; }
 :root[saved-theme="dark"] h4,
@@ -138,3 +138,28 @@ body {
 padding:0;
 border:none;
 }
+
+
+    
+    @media (min-width: 800px) and (max-width: 1200px) {
+.page>#quartz-body .sidebar {
+    padding: 2rem 1rem 2rem!important;
+}
+
+.page>#quartz-body .page-header {
+    grid-area: grid-header;
+    margin: 2rem 0 0;
+    }
+}
+
+.page>#quartz-body .sidebar {
+    padding: 3rem 2rem 2rem;
+}
+
+.page>#quartz-body .page-header {
+    margin: 3rem 0 0;
+}
+.breadcrumb-element p {
+    font-size: 0.6rem;
+}
+
