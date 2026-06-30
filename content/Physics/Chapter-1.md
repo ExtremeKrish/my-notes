@@ -7,21 +7,24 @@ title: Chapter - 1 Electrostatics
 **Electric Charge:-** we can generally say that electric charge is the inequality (or imbalance) of protons and electrons within an object, so its a property of matter, of experiencing force when there is inequality b/w Protons and Electrons.
 
 ## Properties of Charge
-- Like charges repel each other, unlike attract
-- Charge is additive
-- Charge of Isolated system is conserved *(Grass is gree is ahh phrase)*
+1. Like charges repel each other, unlike attract
+2. Charge is additive
+3. Charge of Isolated system is conserved *(Grass is gree is ahh phrase)*
 	- *Charge touch hone ke pehle or baad me same rehat hai dono Miya Biwi ke beech me*
 	- *Vo dono us universe me akele hain, to jo hoga unke bich me hoga*
 	- Q(net) is Constant
-- Charge is invarient, but its mass is varient (infact everything's mass is varient *Relative Physics type shi & there's a formula given by Einstein* not imp for exam:)
-$$
-m = \frac{m_{\circ}}{\sqrt{1-\frac{V^2}{C^2}}}
-$$
-So
-	- $M_{\circ}$ → Rest mass of the Body
-	- V → Velocity of body
-	- C → Speed of Light (in Vaccum)
-- Charge is quantized: The charge on any body is **integral multiple** of an electronic charge
+4. Charge is invarient, but its mass is varient (infact everything's mass is varient *Relative Physics type shi & there's a formula given by Einstein* not imp for exam tho :)
+
+    $$
+    m = \frac{m_{\circ}}{\sqrt{1-\frac{V^2}{C^2}}}
+    $$
+
+    Here,
+    	- $M_{\circ}$ → Rest mass of the Body
+    	- V → Velocity of body
+    	- C → Speed of Light (in Vaccum)
+	
+5. Charge is quantized: The charge on any body is **integral multiple** of an electronic charge
 	- $e = 1.6 X 10^{-19} C$
 	-  -e = -1.6 X 10^(-19) C
 	-  +e = +1.6 X 10^(-19) C
@@ -64,13 +67,16 @@ Not important for exam
 ### Gold Leaf Electroscope
 A simple apparatus to detect charge on a body is the gold-leaf electroscope. It consists of a vertical metal rod housed in a box, with two thin gold leaves attached to its bottom end. When a charged object touches the metal knob at the top of the rod, charge flows on to the leaves and they diverge. The degree of divergance is an indicator of the amount of charge.
 ## Coulomb's Law
+![Coulomb's Law Figure](/coulombs-law.svg)
 
 ($+Q_1$) <---------R---------->($-Q_2$)
 
-$$ F = \frac{k\,q_1\,q_2}{r^2}$$
+$$F = \frac{k\,q_1\,q_2}{r^2}$$
+
 - K = Coulomb's Constant
 - $k = 9 \times 10^9 Nm^2/C^2$ *(In Free Space / Vaccum)*
-- $\large k = \Large\frac{1}{4\pi \epsilon_\circ}$      
+- $\large k = \Large\frac{1}{4\pi \epsilon_\circ}$   
+   
 ### Properties of Coulomb's Law
 - Valid only for point charges
 - Follows Newton's 3rd law
