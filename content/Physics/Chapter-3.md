@@ -36,14 +36,14 @@ $$
 → Obstruction in the flow of charge
 → It DOES NOT depends on V or I
 → It depends on Length, Area (cross-sectional) & *Resistivity* of Material & Temprature too
-**SI Unit:-** $\ohm$ or ohm
+**SI Unit:-** $\Omega$ or ohm
 $$
 R = \frac{\rho\,\ell}{A}
 $$
 Where $\rho$ is **resistivity** 
-- (Unit : $\ohm\,m$)
+- (Unit : $\Omega\,m$)
 - Materials are classified as conductors, insulators & semiconductors on their resistivities.
-- **Metals Resistivity:** $10^{-8} \ohm m$ to $10^{-6} \ohm m$
+- **Metals Resistivity:** $10^{-8} \Omega m$ to $10^{-6} \Omega m$
 - Insulators have resistivities 10^18 times greater than metals or more. 
 ```Q
 Q) The resistance of a wire is 'R' ohm. If it is melted and stretched to 'n' times its original length, its new resistance will be:
@@ -59,20 +59,21 @@ $$
 \vec{J} = \frac{I}{\vec{A}}
 $$
 **Unit:-** $A/m^{2}$
+
 ### Equivalent form of Ohm's Law
 $$
 V = I \times \frac{\rho \ell}{A}
 $$
 - We know that $E = V/\ell$ from Chapter 2 : [[CUET/Physics/Chapter - 2#Relation between field and potential| Relation between field and potential]]
 - And J = I/A, so:
-$$
-\begin{align*}
-V &= j \rho \ell \\
-E &= j \rho \\
-\text{And 1/p = } \sigma &\text{ i.e. conductivity} \\
-\Aboxed{j &= E \,\sigma} \tag{ncert 3.13}
-\end{align*}
-$$
+    $$
+    \begin{align*}
+    V &= j \rho \ell \\
+    E &= j \rho \\
+    \text{And 1/p = } \sigma &\text{ i.e. conductivity} \\
+    \Aboxed{j &= E \,\sigma} \tag{ncert 3.13}
+    \end{align*}
+    $$
 
 ## Drift Velocity
 Drift velocity $v_{d}$ is ==the average velocity that free electrons in a conductor acquire, moving against an electric field towards the positive terminal==.
@@ -105,10 +106,11 @@ So the **Total Number of Electrons** :
 $$
 \begin{align*}
 N &= n \times Vol. \\
-& = n \times (A\ell) \\
+&= n \times (A\ell) \\
 N &= \boxed{n A (V_{d} \Delta t)} \\
 \end{align*}
 $$
+
 Since $Q = Ne$,
 $$
 \begin{align*}

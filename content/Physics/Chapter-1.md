@@ -25,15 +25,15 @@ title: Chapter - 1 Electrostatics
 	
 5. Charge is quantized: The charge on any body is **integral multiple** of an electronic charge
 	- $e = 1.6 \times 10^{-19} C$
-	- $e_{-} = -1.6 \times 10^{-19} C$
-	- $e_{+} = 1.6 \times 10^{-19} C$
+	- $e^{-} = -1.6 \times 10^{-19} C$
+	- $e^{+} = 1.6 \times 10^{-19} C$
 	- $Q_{net} = ne$
 	- and ts was quantisation of charge
 
-```Q
-Q) How many electrons has to be removed from a body to charge it by 1 coulomb?
-A) $6.25 X 10^{18}$
-```
+> [!question] How many electrons has to be removed from a body to charge it by 1 coulomb?
+> > $6.25 X 10^{18}$
+
+
 ```Q
 Q) A neutral body is getting charged negatively. What happens to its mass?
 
