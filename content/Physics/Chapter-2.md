@@ -28,8 +28,10 @@ U_{p} =W_{ext(\infty \to p)} &= \int_{\infty}^{p} f_{ext} \, dr \\
 &= \frac{kQq}{r}
 \end{align*}
 $$
+
 - If Q and q same sign → U>0 
 - If opposite sign → U<0 (because q will be negative) 
+
 ### Potential Energy Difference
 $$
 \Delta U = U_{p} - U_{\infty}
@@ -104,23 +106,31 @@ $$
 Btw this was for Electrostatic Potential which is a scalar qty.
 Let's recall the Net Electric Field due to a system of charges from previous chapter which is the vector sum of the electric fields produced by each charge individually, as determined by the superposition principle. Okey?
 ## Equipotential Surfaces
+Well..., I dont think I have to explain this.
 ### Relation between field and potential
-$$\begin{align*} W_{c} &= -\Delta U \\ W_{elec} &= -\Delta U \\ dW_{elec} &= -dU \quad \text{(Small change)} \\ \int dU &= -\int dW_{elec} \\ \int dU &= -\int \vec{F}_{elec} \cdot d\vec{x} \\ \int q \, dV &= -\int (q\vec{E}) \cdot d\vec{x} \\ V &= -\int \vec{E} \cdot d\vec{x} \\\\ \vec{E} &= -\frac{dV}{dx} \end{align*}$$
+$$
+\begin{align*} W_{c} &= -\Delta U \\ W_{elec} &= -\Delta U \\ dW_{elec} &= -dU \quad \text{(Small change)} \\ \int dU &= -\int dW_{elec} \\ \int dU &= -\int \vec{F}_{elec} \cdot d\vec{x} \\ \int q \, dV &= -\int (q\vec{E}) \cdot d\vec{x} \\ V &= -\int \vec{E} \cdot d\vec{x} \\\\ \vec{E} &= -\frac{dV}{dx} \end{align*}
+$$
+
 This explains that Potential gets reduced in the direction of Electric Field
+
 ## Potential Energy of a System of Charges ¿
 - **Bring $q_1$:** Work = 0.
 - **Bring $q_2$:** Work = Work against $q_1$ (which is $\frac{1}{4\pi\varepsilon_0} \frac{q_1 q_2}{r_{12}}$).
-- **Bring $q_{3}$:** Work = Work against $q_{1}$ and $q_{2}$ which is :- $$
-	
+- **Bring $q_{3}$:** Work = Work against $q_{1}$ and $q_{2}$ which is :- 
+    $$
 	\frac{1}{4\pi\varepsilon_0} \frac{q_1 q_2}{r_{12}}\frac{q_1 q_3}{r_{13}}\frac{q_2 q_3}{r_{23}}
 	$$
+	
 ## Potential Energy in an External Field
 ### 1. Of a Single Charge
 $$
 U = q_1 V(r_1)
 $$
 ### 2. Of a System of two charges in an external field
-$$U = q_1 V(r_1) + q_2 V(r_2) + \frac{1}{4\pi\varepsilon_0} \frac{q_1 q_2}{r_{12}}$$
+$$
+U = q_1 V(r_1) + q_2 V(r_2) + \frac{1}{4\pi\varepsilon_0} \frac{q_1 q_2}{r_{12}}
+$$
 
 ### 3. Of a Dipole in an external field ✤
 
@@ -168,6 +178,7 @@ E - Electric Field b/w plates
 $$
 C = \frac{\epsilon_{\circ} A}{d}
 $$
+
 **Derivation:**
 - We know that, $E = \frac{\sigma}{2 \epsilon_{\circ}}$
 - $E_{net} = 2E = \frac{\sigma}{\epsilon_{\circ}} = \frac{Q}{A\epsilon_{\circ}}$
@@ -176,11 +187,12 @@ $$
 $$
 \begin{align*}
 V &=\frac{\sigma}{\epsilon_{\circ}} \times d\\
-V &= \frac{Q}{A\epsilon_{\circ}}\times d \\
+V &= \frac{Q}{A \epsilon_{\circ}} \times d \\
 \frac{\epsilon_{\circ} A}{d} &= \frac{Q}{V} \\
 \Aboxed{C &= \frac{\epsilon_{\circ} A}{d}}
 \end{align*}
 $$
+
 ## Effect of Dielectric on Capacitance ✤
 
 ## Combination of Capacitors 

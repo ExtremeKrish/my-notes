@@ -14,22 +14,21 @@ title: Chapter - 1 Electrostatics
 	- *Vo dono us universe me akele hain, to jo hoga unke bich me hoga*
 	- Q(net) is Constant
 4. Charge is invarient, but its mass is varient (infact everything's mass is varient *Relative Physics type shi & there's a formula given by Einstein* not imp for exam tho :)
-
     $$
     m = \frac{m_{\circ}}{\sqrt{1-\frac{V^2}{C^2}}}
     $$
 
     Here,
-    	- $M_{\circ}$ → Rest mass of the Body
-    	- V → Velocity of body
-    	- C → Speed of Light (in Vaccum)
+	- $M_{\circ}$ → Rest mass of the Body
+	- V → Velocity of body
+	- C → Speed of Light (in Vaccum)
 	
 5. Charge is quantized: The charge on any body is **integral multiple** of an electronic charge
-	- $e = 1.6 X 10^{-19} C$
-	-  -e = -1.6 X 10^(-19) C
-	-  +e = +1.6 X 10^(-19) C
-	-  $Q_{net} = ne$
-	- yes ts was quantisation of charge
+	- $e = 1.6 \times 10^{-19} C$
+	- $e_{-} = -1.6 \times 10^{-19} C$
+	- $e_{+} = 1.6 \times 10^{-19} C$
+	- $Q_{net} = ne$
+	- and ts was quantisation of charge
 
 ```Q
 Q) How many electrons has to be removed from a body to charge it by 1 coulomb?
@@ -44,6 +43,7 @@ A) It increases dawg cuz u added one electron to negative it, ain't no way u can
 **FYI: An alpha particle is doubly positive helium ion**
 ### Specific Charge 
 $$\text{Specific Charge} = \frac{q}{m}$$
+
 Not important for exam
 ### Conductors & Insulators
 - Conductors:-
@@ -69,9 +69,9 @@ A simple apparatus to detect charge on a body is the gold-leaf electroscope. It 
 ## Coulomb's Law
 ![Coulomb's Law Figure](/coulombs-law.svg)
 
-($+Q_1$) <---------R---------->($-Q_2$)
-
-$$F = \frac{k\,q_1\,q_2}{r^2}$$
+$$
+F = \frac{k\,q_1\,q_2}{r^2}
+$$
 
 - K = Coulomb's Constant
 - $k = 9 \times 10^9 Nm^2/C^2$ *(In Free Space / Vaccum)*
@@ -93,7 +93,9 @@ $\large \epsilon_\circ$ is **Permittivity of Free Space**
 $\epsilon_\circ = 8.85 * 10^{-12} N^{-1}m^{-2}C^2$
 
 ### Permittivity of a Medium
-$$ F = \frac{1}{4\pi \epsilon}\cdot\frac{ q_1 q_2}{r^2}$$
+$$
+F = \frac{1}{4\pi \epsilon}\cdot\frac{ q_1 q_2}{r^2}
+$$
 
 **Where:** $\epsilon = \epsilon_r * \epsilon_\circ$
 $\epsilon$ = **Permittivity of a Medium**
